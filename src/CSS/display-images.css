@@ -1,0 +1,13 @@
+.display-images{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr)); /* auto-fill will decide how many columns to put in */
+                                                                /* this minmax makes each section at minimum 250px wide and 1fr *
+                                                                /* 1fr meaning the maximimum amount for the grid to work in this context */
+    grid-gap: 0 10px; /* First argument is vertical white space, second is horizontal white space */
+    grid-auto-rows: 10px;
+}
+
+.display-images img{
+    width: 250px;
+    grid-row-end: (span 2);
+}

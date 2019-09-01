@@ -1,0 +1,51 @@
+.preview-pictures{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.collection-title{
+    color: black;
+    font-size: 20px;
+}
+
+.collection-body{
+    font-size: 16px;
+}
+
+/* Child absolute positioning */
+.collection-photo{
+    float: right;
+    right: 0px;
+    top: 0px;
+    color: grey;
+    padding: 15px;
+}
+
+.tags{
+    color: blue;
+}
+
+.user-information{
+    position: relative;
+    font-size: 16px;
+}
+
+.user-image{
+    float: left;
+}
+
+.user-content{
+    position: flex;
+    left: auto;
+}
+
+/* Parent relative positioning */
+.collection-information{
+    position: relative;
+}
+
+.preview{
+    font-size: 20px;
+    float: bottom;
+}
